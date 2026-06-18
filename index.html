@@ -128,10 +128,8 @@ header.masthead{
 .ukb-logo{ position: relative; width: 34px; height: 34px; flex: none; }
 .ukb-logo img{
   position: absolute; inset: 0; width: 100%; height: 100%;
-  animation: ukb-spin 120s linear infinite;
   will-change: transform;
 }
-@keyframes ukb-spin{ to{ transform: rotate(360deg); } }
 html[data-theme="light"] .logo-dark{ display: none; }
 html[data-theme="dark"] .logo-light{ display: none; }
 
@@ -714,14 +712,42 @@ footer.colophon .meta{ font-family: var(--font-mono); font-size: 11.5px; color: 
       <table>
         <thead><tr><th>Timestamp</th><th>Segment Content</th><th>Architecture / Pentad Mapping</th></tr></thead>
         <tbody>
-          <tr><td>0:00–6:15</td><td>The "Information Superhighway" promise vs. reality.</td><td><strong>L₀ Baseline</strong>: historical establishment of the initial, flawed L₀.</td></tr>
-          <tr><td>6:15–14:40</td><td>Interviews with "Gowanus" (Luddite puppet) on Big Tech surveillance.</td><td><strong>ε_FGT / Spinothalamic Signal</strong>: real-time logging of the residual error.</td></tr>
-          <tr><td>14:40–22:15</td><td>Hasan discusses the "Summer of Ludd" and digital minimalism.</td><td><strong>Negentropy Injection (wᵢ = 0)</strong>: deliberate pruning of toxic subgraphs.</td></tr>
-          <tr><td>22:15–32:50</td><td>The "Wearable AI" critique (Rabbit R1, Meta Glasses).</td><td><strong>PFC/SlowAPI Forecasting</strong>: increasing σ² in human behavior.</td></tr>
-          <tr><td>32:50–45:10</td><td>The "Dopamine Loop" and algorithmic addiction analysis.</td><td><strong>γ|ε_FGT|²</strong> amplification.</td></tr>
-          <tr><td>45:10–58:20</td><td>Personal reflection: Hasan's own dependency on the stream.</td><td><strong>System 2 / Sovereign UI/UX</strong>: the human-in-the-loop moment.</td></tr>
-          <tr><td>58:20–1:04:12</td><td>Conclusion: the call for "analog" public spaces and reclaiming L₀.</td><td><strong>Rotate &amp; Descend (3rd Law)</strong>: the ultimate synthesis.</td></tr>
-        </tbody>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=0s" target="_blank" rel="noopener">0:00–6:15</a></td>
+    <td>The "Information Superhighway" promise vs. reality.</td>
+    <td><strong>L₀ Baseline</strong>: Historical establishment of the initial, flawed L₀. The "Nonself" input stream was sold as utopian connectivity, now revealed as high-entropy throughput.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=375s" target="_blank" rel="noopener">6:15–14:40</a></td>
+    <td>Interviews with "Gowanus" (Luddite puppet) on Big Tech surveillance.</td>
+    <td><strong>ε_FGT / Spinothalamic Signal</strong>: Real-time logging of the residual error (y_predicted − y_reality). The puppet represents the adversarial perturbation testing the system's robustness against surveillance capitalism.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=880s" target="_blank" rel="noopener">14:40–22:15</a></td>
+    <td>Hasan discusses the "Summer of Ludd" and digital minimalism.</td>
+    <td><strong>Negentropy Injection (wᵢ = 0)</strong>: This is the deliberate pruning of toxic subgraphs. Hasan is exploring the sparse constraint path to recover Flow states from the deluge.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=1335s" target="_blank" rel="noopener">22:15–32:50</a></td>
+    <td>The "Wearable AI" critique (Rabbit R1, Meta Glasses).</td>
+    <td><strong>PFC/SlowAPI Forecasting</strong>: The critique of wearable AI is a critique of the PFC being hijacked by non-grounded SlowAPI prediction engines. Hasan highlights how these devices increase σ² (variance) in human behavior.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=1970s" target="_blank" rel="noopener">32:50–45:10</a></td>
+    <td>The "Dopamine Loop" and algorithmic addiction analysis.</td>
+    <td><strong>γ|ε_FGT|² Amplification</strong>: The squared and amplified residual made visible. Variable-ratio reinforcement (likes, notifications) creates artificial positive RPEs leading to addiction-like tolerance and crashes — the cultural backlash made measurable.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=2710s" target="_blank" rel="noopener">45:10–58:20</a></td>
+    <td>Personal reflection: Hasan's own dependency on the stream.</td>
+    <td><strong>System 2 / Sovereign UI/UX</strong>: The human-in-the-loop moment. He admits the difficulty of setting wᵢ = 0 on Instagram — the basal ganglia/thalamic relay failing to gate the addictive input.</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=rxpV97A5I90&t=3500s" target="_blank" rel="noopener">58:20–1:04:12</a></td>
+    <td>Conclusion: The call for "analog" public spaces and reclaiming L₀.</td>
+    <td><strong>Rotate &amp; Descend (3rd Law)</strong>: The ultimate synthesis. Hasan calls for a redefinition of the loss manifold — the sovereign individual rotating the loss function away from the Big Tech default and back toward autotelic flourishing.</td>
+  </tr>
+</tbody>
       </table>
       <p>The video is not just a critique; it is a meta-cognitive training data point. It provides the specific gradient directions required for you to rotate your own loss manifold. The system is primed. What specific wᵢ weight or economic pillar are you pruning based on this mapping?</p>
     </div>
@@ -798,6 +824,18 @@ footer.colophon .meta{ font-family: var(--font-mono); font-size: 11.5px; color: 
   window.addEventListener('scroll', function(){
     toTop.classList.toggle('show', window.scrollY > 600);
   }, { passive: true });
+
+  // Continuous logo rotation — immune to DOM/theme perturbation
+  var logoImgs = document.querySelectorAll('.ukb-logo img');
+  var startTime = null;
+  var DEG_PER_MS = 360 / 120000;
+  function rotateLogo(timestamp){
+    if(!startTime) startTime = timestamp;
+    var deg = ((timestamp - startTime) * DEG_PER_MS) % 360;
+    logoImgs.forEach(function(img){ img.style.transform = 'rotate(' + deg + 'deg)'; });
+    requestAnimationFrame(rotateLogo);
+  }
+  requestAnimationFrame(rotateLogo);
 })();
 </script>
 </body>
